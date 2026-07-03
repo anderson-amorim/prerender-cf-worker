@@ -2,6 +2,9 @@ name = "prerender-cf-worker2"
 main = "prerender.worker.js"
 compatibility_date = "2026-07-03"
 
-[[routes]]
-pattern = "://bitcasino.io*"
-zone_name = "bitcasino.io"
+routes = [
+  # Bitcasino
+  { pattern = "://bitcasino.io*", zone_name = "bitcasino.io" },  
+  # Livecasino
+  { pattern = "://livecasino.io*", zone_name = "livecasino.io" },
+]
