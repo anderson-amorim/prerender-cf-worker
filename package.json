@@ -1,0 +1,6 @@
+{
+  "name": "prerender-cf-worker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./prerender.worker.js"
+}
